@@ -1,0 +1,19 @@
+body{
+    background-image: url(img/wallpaperBallon.avif);
+}
+h1{
+    color: rgb(248, 131, 6);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+h2{
+    color: rgb(7, 7, 6);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(248, 131, 6);
+}
+.container{
+    position: absolute; /* postulat de départ */
+  top: 50%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%); 
+  font-size: x-large;
+}
